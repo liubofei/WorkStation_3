@@ -334,7 +334,7 @@ int		CardInterfaceManager::pointMoveSync(const QString &ptName, double vel, doub
 
 int		CardInterfaceManager::pointMoveSync(const RunPoint& point, double vel, double acc, double dec)
 {
-	//1.运动  Z轴最后运动
+	//1.运动  Z轴最后运动.
 	int ret = 0;
 	if (!point.dimension.axisNameX.isEmpty())
 	{
