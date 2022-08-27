@@ -1,0 +1,39 @@
+set Dir=%cd%
+rd /s/q %Dir%\Motion\Motion_smc\Debug
+rd /s/q %Dir%\Motion\Motion_smc\Release
+rd /s/q %Dir%\Motion\Motion_smc\GeneratedFiles
+rd /s/q %Dir%\Motion\MotionPackage\Debug
+rd /s/q %Dir%\Motion\MotionPackage\Release
+rd /s/q %Dir%\Motion\MotionPackage\GeneratedFiles
+rd /s/q %Dir%\Vision\HalPro\Debug
+rd /s/q %Dir%\Vision\HalPro\Release
+d /s/q %Dir%\Vision\HalPro\GeneratedFiles
+rd /s/q %Dir%\Vision\HalWnd\Debug
+rd /s/q %Dir%\Vision\HalWnd\Release
+rd /s/q %Dir%\Vision\HalWnd\GeneratedFiles
+rd /s/q %Dir%\Utility\NetWork\Debug
+rd /s/q %Dir%\Utility\NetWork\Release
+rd /s/q %Dir%\Utility\NetWork\GeneratedFiles
+rd /s/q %Dir%\Utility\SerialPort\Debug
+rd /s/q %Dir%\Utility\SerialPort\Release
+rd /s/q %Dir%\Utility\SerialPort\GeneratedFiles
+rd /s/q %Dir%\Utility\System\Debug
+rd /s/q %Dir%\Utility\System\Release
+rd /s/q %Dir%\Utility\System\GeneratedFiles
+rd /s/q %Dir%\Utility\Utility\Debug
+rd /s/q %Dir%\Utility\Utility\Release
+rd /s/q %Dir%\Utility\Utility\GeneratedFiles
+rd /s/q %Dir%\Utility\XMessageBox\Debug
+rd /s/q %Dir%\Utility\XMessageBox\Release
+rd /s/q %Dir%\Utility\XMessageBox\GeneratedFiles
+rd /s/q %Dir%\Utility\XWindow\Debug
+rd /s/q %Dir%\Utility\XWindow\Release
+rd /s/q %Dir%\Utility\XWindow\GeneratedFiles
+rd /s/q %Dir%\WorkFlow\WorkFlow\Debug
+rd /s/q %Dir%\WorkFlow\WorkFlow\Release
+rd /s/q %Dir%\WorkFlow\WorkFlow\GeneratedFiles
+rd /s/q %Dir%\WorkStation\Debug
+rd /s/q %Dir%\WorkStation\Release
+rd /s/q %Dir%\WorkStation\GeneratedFiles
+del %Dir%\*.sdf
+pause
