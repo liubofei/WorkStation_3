@@ -56,7 +56,6 @@ int Motion_dmc::Reset()
 		LOG_ERR("dmc_board_reset return error %d", ret);
 		return ERR_CARD_RESET;
 	}
-
 	ret = dmc_board_close();
 	LOG_INFO("Motion_dmc call dmc_board_close().");
 	if (ret)
